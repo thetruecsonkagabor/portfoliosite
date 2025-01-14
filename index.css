@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 842px;
+  min-height: 841px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -125,7 +125,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 705px;
+    min-height: 704px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -184,7 +184,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 160px;
+    min-height: 159px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -243,7 +243,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 260px;
+    min-height: 259px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -337,14 +337,14 @@
   width: calc(((100% - 1140px) / 2)  + 150px);
   --radius: 30px;
   height: 647px;
-  margin: -1268px 0 0 auto;
+  margin: -1267px 0 0 auto;
 }
 
 .u-section-2 .u-shape-4 {
   width: calc(((100% - 1140px) / 2)  + 150px);
   --radius: 30px;
   height: 648px;
-  margin: -650px auto 0 0;
+  margin: -651px auto 0 0;
 }
 
 .u-section-2 .u-shape-5 {
@@ -645,7 +645,7 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    width: calc(((100% - 940px) / 2) + 150px);
+    width: calc(((100% - 940px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-3 {
@@ -663,7 +663,7 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    width: calc(((100% - 940px) / 2) + 150px);
+    width: calc(((100% - 940px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-5 {
@@ -776,15 +776,15 @@
   }
 
   .u-section-2 .u-shape-2 {
-    width: calc(((100% - 720px) / 2) + 150px);
+    width: calc(((100% - 720px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-3 {
-    width: calc(((100% - 720px) / 2) + 150px);
+    width: calc(((100% - 720px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-4 {
-    width: calc(((100% - 720px) / 2) + 150px);
+    width: calc(((100% - 720px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-6 {
@@ -883,11 +883,11 @@
   }
 
   .u-section-2 .u-shape-2 {
-    width: calc(((100% - 540px) / 2) + 150px);
+    width: calc(((100% - 540px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-3 {
-    width: calc(((100% - 540px) / 2) + 150px);
+    width: calc(((100% - 540px) / 2)  + 150px);
   }
 
   .u-section-2 .u-shape-4 {
