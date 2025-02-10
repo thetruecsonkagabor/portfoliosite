@@ -23,6 +23,7 @@
 		"@type": "Organization",
 		"name": ""
 }</script>
+	<script src="https://www.google.com/recaptcha/api.js"></script>
     <meta name="theme-color" content="#1f203a">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
@@ -280,6 +281,7 @@ borders: top right bottom left !important; border-color: #ffffff !important; bor
                           <label for="message-5a14" class="u-form-control-hidden u-label">Message</label>
                           <textarea placeholder="" rows="4" cols="50" id="message-5a14" name="message" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-palette-3-base" required=""></textarea>
                         </div>
+			      <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                         <div class="u-align-left u-form-group u-form-submit">
                           <a href="#" class="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Submit</a>
                           <input type="submit" value="submit" class="u-form-control-hidden">
@@ -331,5 +333,11 @@ borders: top right bottom left !important; border-color: #ffffff !important; bor
         <p class="u-small-text u-text u-text-variant u-text-1">All rights reserved</p>
       </div></footer>
     
-  
+ <script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Lc5hLcqAAAAAFT95I1UAHyWpyMoAIZLcfPTzbOf', {action: 'submit'}).then(function(token) {
+        document.getElementById('recaptchaResponse').value = token;
+    });
+});
+</script> 
 </body></html>
