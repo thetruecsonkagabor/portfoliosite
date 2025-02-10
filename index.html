@@ -23,11 +23,19 @@
 		"@type": "Organization",
 		"name": ""
 }</script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
+	
     <meta name="theme-color" content="#1f203a">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+	<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('YOUR_SITE_KEY', {action: 'submit'}).then(function(token) {
+        document.getElementById('recaptchaResponse').value = token;
+    });
+});
+</script>
   <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-grey-80 u-header u-sticky u-sticky-6d45 u-header" id="sec-980d"><div class="u-clearfix u-sheet u-sheet-1">
         <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
