@@ -331,5 +331,12 @@ borders: top right bottom left !important; border-color: #ffffff !important; bor
         <p class="u-small-text u-text u-text-variant u-text-1">All rights reserved</p>
       </div></footer>
 
-  
+<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Lc5hLcqAAAAAFT95I1UAHyWpyMoAIZLcfPTzbOf', {action: 'submit'}).then(function(token) {
+        document.getElementById('recaptchaResponse').value = token;
+    });
+});
+</script>  
 </body></html>
